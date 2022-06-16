@@ -34,11 +34,16 @@ const Navbar = ({ children }) => {
               <ul className="menu menu-horizontal">
                 {/* <!-- Navbar menu content here --> */}
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/" className=" uppercase">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a>Navbar Item 2</a>
+                  <Link to="/project" className=" uppercase">
+                    Project
+                  </Link>
                 </li>
+
                 <li></li>
               </ul>
             </div>
@@ -51,10 +56,14 @@ const Navbar = ({ children }) => {
           <ul className="menu p-4 overflow-y-auto w-80 bg-base-100">
             {/* <!-- Sidebar content here --> */}
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className=" uppercase">
+                Home
+              </Link>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <Link to="/project" className=" uppercase">
+                Project
+              </Link>
             </li>
           </ul>
         </div>
