@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ children }) => {
   return (
-    <div>
-      <div className="drawer drawer-end">
+    <div className="">
+      <div className="drawer drawer-end ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* <!-- Navbar --> */}
-          <div className="w-full navbar bg-base-100">
+          <div className="w-full navbar bg-base-100 lg:pr-24 lg:pl-24 md:pr-16 md:pl-16">
             <div className="flex-1 px-2 mx-2 font-semibold uppercase">
               PORTFOLIO
             </div>

@@ -31,12 +31,9 @@ const Banner = () => {
             >
               Resume Download <BiLinkExternal className=" ml-3" />
             </button>
-            {/* <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              Button
-            </button> */}
           </div>
 
-          {/* shoshal link  */}
+          {/* social media  */}
           <div class="flex justify-center mt-5">
             <button
               onClick={() => {
