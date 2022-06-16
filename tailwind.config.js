@@ -2,9 +2,6 @@
 
 module.exports = {
   content: ['./src/**/*.{html,js}'],
-  theme: {
-    extend: {},
-  },
   daisyui: {
     themes: [
       {
@@ -28,6 +25,7 @@ module.exports = {
           error: '#F87272',
         },
       },
+      'dark',
     ],
   },
   //...

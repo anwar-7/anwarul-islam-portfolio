@@ -1,8 +1,15 @@
+import { Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Navbar from './Pages/Shared/Navbar';
+
 function App() {
   return (
-    <div className="App">
-      <p class="text-3xl font-bold underline">Anwarul Islam</p>
-      <h1>Anwarul Islam</h1>
+    <div className="App px-4xl">
+      <Navbar>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </Navbar>
     </div>
   );
 }
